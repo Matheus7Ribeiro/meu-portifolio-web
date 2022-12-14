@@ -1,0 +1,340 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-image: linear-gradient(90deg, #051D3B, #0a356a);
+    padding: 0px 0px 0px ;
+  
+   
+}
+.header-info {
+    display: block;
+    position: relative;
+    width: 200px;
+    bottom: 90px;
+    left: 1080px;
+    color: #FFFFFF;
+}
+.header-info img {
+    width: 30px;
+    position: relative;
+    top: 26px;
+}
+.header-info p{
+    position: relative;
+    left: 40px;
+
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    height: 243px;
+    margin: 0 px;
+}    
+.caixa img {
+    position: relative;
+    width: 250px;
+    border-radius: 50%;
+    top: 30px;
+    left:680px;
+    border:  #0F53A8 10px solid;
+    
+}
+#meunome {
+    display: inline;
+    position: relative;
+    top: 150px;
+    left: 340px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: px;
+}
+.caixa p {
+    display: block;
+    position: relative;
+    font-size: 20px;
+    color: #ffffff;
+    top: 160px;
+    left: 360px;
+}
+.iconesredes1{
+    position: absolute;
+    width: 40px;
+    top: 49px;
+    left: 1030px;
+}
+.iconesredes1 img{
+    display: flex;
+    width: 40px;
+}
+nav {
+    background-color: #051D3B;
+    padding: 10px 120px 13px;
+    position: fixed;
+    top: 0px;
+    left: 140px;
+    border-radius: 20px;
+
+
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+main {
+    background: linear-gradient( #888888, #051D3B);
+    
+}
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border-color: #C78C19;
+}
+.produtos li:active {
+    border-color: rgb(0, 0, 0);
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao {
+    font-size: 18px;
+}
+.produtos-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox {
+    margin: 20px 0;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 0 40px;
+}
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+td, tr {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+/* css da pagina inicial */
+.banner{
+    width: 100%;
+   
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+/*.titulo-principal:before {
+    content: "[ ";
+}
+
+.titulo-principal:after {
+    content:" ]"
+} */ 
+.principal {
+padding: 3em 0;
+color: #ffffff;
+width: 940px;
+margin: 0 auto;
+}
+.principal p {
+    margin: 0 0 1em;
+    font-size: 20px;
+    color: #ffffff;
+}
+.principal strong {
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.infoscurriculo {
+    padding: 3em 0;
+    text-align: center;
+    color: #ffffff;
+    
+}
+.infoscurriculo p{
+    margin: 0 0 2em;
+    
+}
+.icones-habilidades{
+    width: 170px;
+}
+.icones-interesses{
+    transition: 0.7s;
+    width: 100px;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+.experiencia {
+    padding: 3em 0;
+    background: #888888;
+}
+.conteudo-beneficios{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.lista-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.itens {
+    background-color: #0F53A8;
+    box-shadow: 1px 1px 16px rgb(82 4 56 / 50%);
+    color: rgb(255, 229, 229);
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+    
+}
+.itensh {
+    background-color: rgb(44, 0, 189);
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 229, 229);
+    padding: 18px;
+    display: inline-block;
+    border-radius: 8px;
+    width: 45%;
+    box-sizing: border-box;
+    vertical-align: top;
+    height: 100px;
+    font-size: 30px;
+}
+
+.imagembeneficios{
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+.imagembeneficios:hover{
+    opacity: 0.3;
+
+}
+.falecomigo {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.corlink{
+    color:#FFFFFF
+}
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position:static;
+    }
+    .lista-beneficios, imagem-beneficios {
+        width: 100%
+    }
+}
